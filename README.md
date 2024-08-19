@@ -8,15 +8,14 @@
 * Paste Masterkey in items.lua
 * Restart your server.
 
-```lua
 Go To qb-core/shared/items.lua
+```lua
 -- MasterKey
  	["masterkey"]=          {["name"] = "masterkey",        ["label"] = "Car Unlocker",			["weight"] = 0, ["type"] = "item",  ["image"] = "masterkey.png",        ["unique"] = true,  ["useable"] = true,["shouldClose"] = true, ["description"] = "A MasterKey For Unlock Any Car"},
 ```
-
-```lua
 Go To qb-vehiclekeys/server/main.lua  And Search function HasKeys 
 Add Following Code 
+```lua
 -- HasKeys function
 function HasKeys(id, plate)
 local citizenid = QBCore.Functions.GetPlayer(id).PlayerData.citizenid
