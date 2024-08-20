@@ -46,7 +46,7 @@ Config.KeyItemName = "masterkey"
 -- Cooldown settings (to prevent spam)
 Config.Cooldown = {
     Enabled = true,
-    Duration = 1000 -- 1 minute cooldown in milliseconds
+    Duration = 1000 -- 1 sec cooldown in milliseconds
 }
 
 -- Server event name for acquiring vehicle keys
